@@ -1,0 +1,27 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": {
+      "includeFiles": [
+        "appsettings.json"
+      ]
+    }
+  },
+
+  "dependencies": {
+    "Schroders.Bus.Core": "1.0.0-*",
+    "Schroders.Bus.NServiceBus": "1.0.0-*",
+    "NServiceBus": "6.0.0",
+    "Autofac": "4.2.1",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.1.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
+    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "ProductMaster.FundShareClass.Handlers": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "net461": {}
+  }
+}
+      

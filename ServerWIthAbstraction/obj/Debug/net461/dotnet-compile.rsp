@@ -1,0 +1,94 @@
+--temp-output:C:\Alterax\NServiceBus\SchrodersPubSubExample\ServerWIthAbstraction\obj\Debug\net461\
+--out:C:\Alterax\NServiceBus\SchrodersPubSubExample\ServerWIthAbstraction\bin\Debug\net461\ServerWIthAbstraction.exe
+--define:DEBUG
+--define:TRACE
+--define:NET461
+--suppress-warning:CS1701
+--suppress-warning:CS1702
+--suppress-warning:CS1705
+--platform:x64
+--optimize:False
+--emit-entry-point:True
+--output-name:ServerWIthAbstraction
+--file-version:1.0.0.0
+--version:1.0.0.0
+--informational-version:1.0.0
+--target-framework:.NETFramework,Version=v4.6.1
+--reference:C:\Users\jcoxh\.nuget\packages\Autofac\4.2.1\lib\net45\Autofac.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Configuration\1.1.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Configuration.Binder\1.1.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.Binder.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Configuration.EnvironmentVariables\1.1.0\lib\net451\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Configuration.FileExtensions\1.1.0\lib\net451\Microsoft.Extensions.Configuration.FileExtensions.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Configuration.Json\1.1.0\lib\net451\Microsoft.Extensions.Configuration.Json.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.FileProviders.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.FileProviders.Physical\1.1.0\lib\net451\Microsoft.Extensions.FileProviders.Physical.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.FileSystemGlobbing\1.1.0\lib\net45\Microsoft.Extensions.FileSystemGlobbing.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\1.1.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Options\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Options.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Options.ConfigurationExtensions\1.1.0\lib\netstandard1.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Extensions.Primitives\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Microsoft.Win32.Primitives\4.3.0\ref\net46\Microsoft.Win32.Primitives.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Newtonsoft.Json\9.0.1\lib\net45\Newtonsoft.Json.dll
+--reference:C:\Users\jcoxh\.nuget\packages\NServiceBus\6.0.0\lib\net452\NServiceBus.Core.dll
+--reference:C:\Users\jcoxh\.nuget\packages\NServiceBus.Autofac\6.0.0\lib\net452\NServiceBus.ObjectBuilder.Autofac.dll
+--reference:C:\Users\jcoxh\.nuget\packages\ProductMaster.FundShareClass.DataContracts\1.0.0-1\lib\net461\ProductMaster.FundShareClass.DataContracts.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Schroders.Bus.Core\1.0.0\lib\net461\Schroders.Bus.Core.dll
+--reference:C:\Users\jcoxh\.nuget\packages\Schroders.Bus.NServiceBus\1.0.0\lib\net461\Schroders.Bus.NServiceBus.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.AppContext\4.3.0\ref\net46\System.AppContext.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Collections.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Collections.Concurrent.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ComponentModel.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.ComponentModel.Primitives\4.3.0\ref\net45\System.ComponentModel.Primitives.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.ComponentModel.TypeConverter\4.3.0\ref\net45\System.ComponentModel.TypeConverter.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Console\4.3.0\ref\net46\System.Console.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Diagnostics.Debug.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Diagnostics.Tools.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Diagnostics.Tracing.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Globalization.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Globalization.Calendars\4.3.0\ref\net46\System.Globalization.Calendars.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.IO.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.IO.Compression\4.3.0\ref\net46\System.IO.Compression.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.IO.Compression.ZipFile\4.3.0\ref\net46\System.IO.Compression.ZipFile.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.IO.FileSystem\4.3.0\ref\net46\System.IO.FileSystem.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.IO.FileSystem.Primitives\4.3.0\ref\net46\System.IO.FileSystem.Primitives.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Linq.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Linq.Expressions.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Net.Http\4.3.0\ref\net46\System.Net.Http.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Net.Primitives.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Net.Sockets\4.3.0\ref\net46\System.Net.Sockets.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.ObjectModel.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.Extensions.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Reflection.Primitives.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Resources.ResourceManager.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Runtime.CompilerServices.Unsafe\4.3.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Extensions.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Handles.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.InteropServices.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.3.0\ref\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Runtime.Numerics.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Security.Cryptography.Algorithms\4.3.0\ref\net461\System.Security.Cryptography.Algorithms.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Security.Cryptography.Encoding\4.3.0\ref\net46\System.Security.Cryptography.Encoding.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Security.Cryptography.Primitives\4.3.0\ref\net46\System.Security.Cryptography.Primitives.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Security.Cryptography.X509Certificates\4.3.0\ref\net461\System.Security.Cryptography.X509Certificates.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Text.Encoding.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Text.Encoding.Extensions.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Text.RegularExpressions.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.Tasks.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.Timer.dll
+--reference:C:\Users\jcoxh\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\net46\System.Xml.ReaderWriter.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.XDocument.dll
+--reference:C:\Alterax\NServiceBus\SchrodersPubSubExample\ProductMaster.FundShareClass.Handlers\bin\Debug\net461\ProductMaster.FundShareClass.Handlers.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Core.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Microsoft.CSharp.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.IO.Compression.FileSystem.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.dll
+C:\Alterax\NServiceBus\SchrodersPubSubExample\ServerWIthAbstraction\NServiceBusMessageHandler.cs
+C:\Alterax\NServiceBus\SchrodersPubSubExample\ServerWIthAbstraction\Program.cs
+C:\Alterax\NServiceBus\SchrodersPubSubExample\ServerWIthAbstraction\Properties\AssemblyInfo.cs
